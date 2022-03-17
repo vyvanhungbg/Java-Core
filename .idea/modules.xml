@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bai2_20_VyVanHung/Bai2_20_VyVanHung.iml" filepath="$PROJECT_DIR$/Bai2_20_VyVanHung/Bai2_20_VyVanHung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bai4_Phieu5_20_VyVanHung/Bai4_Phieu5_20_VyVanHung.iml" filepath="$PROJECT_DIR$/Bai4_Phieu5_20_VyVanHung/Bai4_Phieu5_20_VyVanHung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeMauGGClassrom/src/CodeMauGGClassrom.iml" filepath="$PROJECT_DIR$/CodeMauGGClassrom/src/CodeMauGGClassrom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeMauGGClassrom/CodeMauGGClassrom1.iml" filepath="$PROJECT_DIR$/CodeMauGGClassrom/CodeMauGGClassrom1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-Core.iml" filepath="$PROJECT_DIR$/.idea/Java-Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThaoTacMang/ThaoTacMang.iml" filepath="$PROJECT_DIR$/ThaoTacMang/ThaoTacMang.iml" />
+    </modules>
+  </component>
+</project>

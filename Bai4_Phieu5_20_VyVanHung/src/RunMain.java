@@ -4,5 +4,7 @@ public class RunMain {
         HoaDon hoaDon = new HoaDon();
         hoaDon.nhap();
         hoaDon.xuat();
+        hoaDon.sapXep();
+        hoaDon.xuat();
     }
 }

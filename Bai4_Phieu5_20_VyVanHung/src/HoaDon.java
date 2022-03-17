@@ -1,5 +1,6 @@
 import java.text.DecimalFormat;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class HoaDon {
@@ -43,6 +44,19 @@ public class HoaDon {
         for(int i=0;i<dsHang.length;i++)
             tong+=dsHang[i].tinhTien();
         System.out.printf("%nTổng tiền  : %30s",df.format(tong));
+    }
+
+    public void sapXep(){
+        Arrays.sort(dsHang, new Comparator<HangHoa>() {
+            @Override
+            public int compare(HangHoa o1, HangHoa o2) {
+
+                if(o1.getTenHang().compareToIgnoreCase(o2.getTenHang()) != 0)
+                    return o1.getTenHang().compareToIgnoreCase(o2.getTenHang());
+                else
+                    return o1.tinhTien()>o2.tinhTien() ? 1:-1;
+            }
+        });
     }
 
     public void xuat(){
