@@ -2,7 +2,7 @@ package BaiTap2_QuanLiTienDien;
 
 import java.util.Scanner;
 
-public abstract class KhachHang {
+public abstract class KhachHang  {
     public  static Scanner scanner = new Scanner(System.in);
     protected String maKhachHang;
     protected String hoTen;

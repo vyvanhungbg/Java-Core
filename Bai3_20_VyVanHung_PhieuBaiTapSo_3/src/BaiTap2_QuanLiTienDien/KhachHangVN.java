@@ -26,6 +26,6 @@ public class KhachHangVN extends KhachHang{
     public double tinhTien() {
         if(soKw <= dinhMuc)
             return soKw*donGia;
-        return soKw*donGia*dinhMuc + (dinhMuc-soKw)*donGia*2.5;
+        return soKw*donGia*dinhMuc + (soKw-dinhMuc)*donGia*2.5;
     }
 }
